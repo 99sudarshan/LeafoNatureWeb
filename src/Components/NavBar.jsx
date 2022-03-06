@@ -30,7 +30,7 @@ const NavBar = () => {
                     </svg>
                 </div>
             </nav>
-            <div className={`lg:hidden fixed w-full py-5 bg-zinc-700 transition-all duration-300 delay-150 ${isOpen ? "top-[4rem]" : "-top-[30rem]"}`} >
+            <div className={`lg:hidden fixed w-full py-5 bg-zinc-700 transition-all duration-500 delay-150 ${isOpen ? "top-[4rem]" : "-top-[30rem]"}`} >
                 <ul className='flex flex-col text-center gap-3 text-white'>
                     <li className='nav-text text-center py-3 hover:bg-blue-400'>
                         <NavLink to='/' >Home</NavLink> </li>
